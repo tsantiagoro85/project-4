@@ -81,6 +81,8 @@ The features were ranked by their importance, with the following being the top c
 
 A scatter plot was created to visualize the importance of each feature. This plot helps in understanding which features have the most significant impact on predicting obesity levels.
 
+![random_forest_feature_importance](https://github.com/user-attachments/assets/5edb970b-744d-4bb6-bb47-2f6723caafed)
+
 *Model Evaluation:*
 
 While the summary does not include specific evaluation metrics (like accuracy, precision, recall, etc.), these can be calculated using the testing set predictions to assess the model's performance.  
