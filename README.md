@@ -1,5 +1,5 @@
 ## Predicting Obesity using Tensorflow Deep Learning
-This analysis aims to predict obesity or overweight status based on various lifestyle and demographic features using deep learning models. The dataset is processed using PySpark for initial data handling, followed by the use of a neural network built with TensorFlow. The analysis is conducted in multiple stages, focusing on a mix of different features.
+This analysis aims to predict obesity or overweight status based on various lifestyle and demographic features using deep learning models. The dataset was downloaded from https://archive.ics.uci.edu/dataset/544/estimation+of+obesity+levels+based+on+eating+habits+and+physical+condition. The dataset was then processed using PySpark for initial data handling, followed by the use of a neural network built with TensorFlow. The analysis is conducted in multiple stages, focusing on a mix of different features.
 
 ## Compiling, Training, and Evaluating the Model
 *Data Loading and Preparation:*
