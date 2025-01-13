@@ -21,8 +21,8 @@ The model is trained on the scaled training data for 100 epochs, with validation
 
 *Model Evaluation:*
 
-After training, the model is evaluated on the test set to determine its accuracy. Many features have accomplished the target accuracy percentage of 75%, whilst some don't. However the ones that do not are within 2% of the desired accuracy. 
-It can be concluded that these features contribute less to the obesity factors.
+After training, the model is evaluated on the test set to determine its accuracy. Many features have accomplished the target accuracy percentage of 75%, whilst some do not. However, those features that do not, are within 2% of the desired accuracy. 
+It can be concluded that these features contribute less to the obesity factors and are in agreement that obesity is multifactorial in nature.
 
 *Improving Accuracy:*
 
@@ -64,7 +64,7 @@ Categorical Variables
 * Loss Values: The loss values provide insight into the model's error; lower loss values (especially for age and food between meals) suggest better model performance.
 
 ## Random Forest Classifier
-A Random Forest Classifier was trained using the obesity dataset, where the target variable is whether an individual is "Obese/Overweight" or not.
+To rank the variables in order of importance, a Random Forest Classifier was trained using the obesity dataset, where the target variable is whether an individual is "Obese/Overweight" or not.
 The dataset was split into training (80%) and testing (20%) sets using the train_test_split method.
 
 *Feature Importance:*
@@ -73,9 +73,11 @@ The model was used to extract feature importance scores, which indicate how much
 The features were ranked by their importance, with the following being the top contributors:
 * Food Between Meals: 0.165562
 * Age: 0.156754
-* Family History: 0.132402
+* Family History with Overweight: 0.132402
 * Height: 0.087969
 * Physical Activity Frequency: 0.084680
+
+Notably, "Food Between Meals", "Family History with Overweight" and "Age" were also among the categories with the highest accuracy values when performing the neural network analysis.
 
 *Visualization:*
 
@@ -88,5 +90,5 @@ A scatter plot was created to visualize the importance of each feature. This plo
 While the summary does not include specific evaluation metrics (like accuracy, precision, recall, etc.), these can be calculated using the testing set predictions to assess the model's performance.  
 
 ## Conclusion
-The results found using this model are crucial in understanding obesity factors. These results can be utilized to provide accurate public health strategies, and encourage individual lifestyle changes. While the model shows promise in predicting obesity based on lifestyle and demographic features, further exploration of additional relevant features and larger datasets could enhance its accuracy and utility.
+The results found using this model are crucial in understanding obesity risk factors. These results can be utilized to provide accurate public health strategies, and encourage individual lifestyle changes. While the model shows promise in predicting obesity based on lifestyle and demographic features, further exploration of additional relevant features and larger datasets could enhance its accuracy and utility.
 
